@@ -21,7 +21,7 @@
 
 ### 🖥️ 데스크탑 화면
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/786ee909-1b0d-4980-a98b-0e2d2df58fff" width="90%" />
+  <img src="https://github.com/user-attachments/assets/0e2af930-7b3a-47c6-82b6-0ed01656bb2e" width="100%" />
 </p>
 ---
 
