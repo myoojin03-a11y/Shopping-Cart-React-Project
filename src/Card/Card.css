@@ -1,0 +1,87 @@
+.card {
+  border: 1px solid rgb(186, 186, 186);
+  border-radius: 15px;
+  padding: 1rem 1.5rem;
+  display: flex;
+  align-items: center;
+  transition: .35s;
+  background: white;
+}
+
+.card:hover {
+  box-shadow: 0 2px 14px rgb(215, 215, 215);
+}
+
+.card-info {
+  flex: 1;
+}
+
+.card-name {
+  font-weight: 800;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.card-price {
+  color: gray;
+}
+
+.qty-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.qty-btn {
+  width: 30px;
+  height: 30px;
+  background: rgb(206, 206, 206);
+  border-radius: 8px;
+  border: none;
+  color: rgb(64, 64, 64);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+/*hover시 버튼을 진하게 하지만 disabled상태에서는 제외*/
+.qty-btn:hover:not(:disabled) {
+  background: #0f172a;
+  color: #fff;
+}
+
+/*수량이 1일 때 -버튼은 disabled 흐리게 +클릭안되게*/
+.qty-btn:disabled {
+  color: rgb(192, 192, 192);
+  cursor: not-allowed;
+  background: rgb(224, 253, 255);
+}
+
+.qty-value {
+  font-size: 15px;
+  font-weight: bold;
+  min-width: 22px;
+  text-align: center;
+}
+
+.card-total {
+  font-size: 15px;
+  font-weight: 800;
+  color: #0f172a;
+  min-width: 100px;
+  text-align: center;
+}
+
+.delete-btn {
+  cursor: pointer;
+  border: none;
+  font-size: 30px;
+  background: transparent;
+  transition: 0.15s;
+}
+
+.delete-btn:hover {
+  color: #e13c3c
+}
