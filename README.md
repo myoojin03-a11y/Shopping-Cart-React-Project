@@ -17,10 +17,12 @@
 
 ---
 
-## 배포 링크
-https://shopping-cart-react-project33.netlify.app/
+### 🔗 배포 링크 https://shopping-cart-react-project33.netlify.app/
 
-
+### 🖥️ 데스크탑 화면
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/786ee909-1b0d-4980-a98b-0e2d2df58fff" width="90%" />
+</p>
 ---
 
 ## 2. 사용 기술
