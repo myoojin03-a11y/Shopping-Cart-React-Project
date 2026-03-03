@@ -1,16 +1,63 @@
-# React + Vite
+# 🛒 장바구니 관리 React 프로젝트
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 1. 프로젝트 소개
 
-Currently, two official plugins are available:
+이 프로젝트는 React의 상태 관리(useState)와
+배열 메서드(map, filter, sort)를 활용하여
+상품을 추가·삭제·정렬·수량 변경할 수 있는
+간단한 장바구니 기능을 구현한 연습 프로젝트입니다.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+사용자는
+- 상품 추가
+- 상품 삭제
+- 수량 변경
+- 가격 기준 정렬
 
-## React Compiler
+기능을 직접 조작할 수 있습니다.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 배포 링크
+https://shopping-cart-react-project33.netlify.app/
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+---
+
+## 2. 사용 기술
+
+- **React (useState)** – 상품 추가, 삭제, 수량 변경 상태 관리
+- **Vite** – 빠른 개발 서버 환경 구성
+- **JavaScript (ES6+)** – map, filter, sort 활용
+- **CSS3** – 레이아웃 및 UI 스타일링
+
+---
+
+## 3. 주요 기능
+
+- useState를 활용한 상품 목록 상태 관리
+- 배열 불변성 유지 (spread 연산자 사용)
+- filter()를 이용한 상품 삭제
+- map()을 활용한 리스트 렌더링
+- sort()를 이용한 가격 기준 정렬
+- props를 통한 자식 컴포넌트 데이터 전달
+
+---
+
+## 4. 프로젝트 구조
+
+```bash
+src
+ ├── App.jsx
+ ├── main.jsx
+ └── Card
+      ├── Card.jsx
+      └── Card.css
+```
+
+---
+
+## 5. 실행 방법
+
+```bash
+npm install
+npm run dev
